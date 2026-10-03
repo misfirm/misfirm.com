@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 370" role="img" aria-labelledby="title desc">
+  <title id="title">MIS Solutions logo</title>
+  <desc id="desc">MIS Solutions wordmark with blue MIS text, orange SOLUTIONS text, and a geometric cube mark between them.</desc>
+  <defs>
+    <style>
+      .blue { fill: #09135A; }
+      .orange { fill: #F36B21; }
+      .stroke-blue { stroke: #09135A; stroke-width: 14; stroke-linejoin: round; stroke-linecap: round; fill: none; }
+      .mono-blue { fill: #09135A; font-family: 'Quivera Regular', Orbitron, Arial, sans-serif; font-weight: 800; letter-spacing: 0.02em; }
+      .mono-orange { fill: #F36B21; font-family: 'Quivera Regular', Orbitron, Arial, sans-serif; font-weight: 800; letter-spacing: 0.02em; }
+    </style>
+  </defs>
+
+  <text x="0" y="255" class="mono-blue" font-size="170">MIS</text>
+  <text x="720" y="255" class="mono-orange" font-size="170">SOLUTIONS</text>
+
+  <g transform="translate(460,22)">
+    <path class="stroke-blue" d="M102 8 201 65v114l-99 57-99-57V65Z"/>
+    <path class="stroke-blue" d="M102 8v114"/>
+    <path class="stroke-blue" d="M201 65 102 122 3 65"/>
+    <path class="stroke-blue" d="M102 122v114"/>
+    <path class="stroke-blue" d="M53 34 152 91"/>
+    <path class="stroke-blue" d="M152 34 53 91"/>
+    <path class="stroke-blue" d="M129 34 164 54 129 74 94 54Z"/>
+    <path class="stroke-blue" d="M27 89 78 118v57l-51-29Z"/>
+    <path class="stroke-blue" d="M176 89 125 118v57l51-29Z"/>
+    <text x="50" y="144" class="mono-blue" font-size="34" text-anchor="middle">M</text>
+    <text x="154" y="144" class="mono-blue" font-size="34" text-anchor="middle">S</text>
+  </g>
+</svg>
