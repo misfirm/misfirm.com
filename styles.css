@@ -259,18 +259,28 @@ h1, h2, h3 { font-family: var(--display); }
   margin-bottom: var(--section-space);
   padding: clamp(2.5rem, 5vw, 4.75rem);
   display: grid;
-  grid-template-columns: 1.15fr .85fr;
-  gap: clamp(2.5rem, 8vw, 7rem);
-  align-items: center;
+  grid-template-columns: .9fr 1.1fr;
+  gap: clamp(2.5rem, 7vw, 6rem);
+  align-items: start;
   background: var(--orange);
   color: var(--white);
 }
 .contact .section-kicker { color: var(--navy); }
 .contact h2 { color: var(--white); }
-.contact-copy p { margin-bottom: 1.5rem; font-size: 1.06rem; }
-.button-light { background: var(--white); color: var(--navy); }
-.button-light:hover,
-.button-light:focus-visible { background: var(--navy); color: var(--white); }
+.contact-copy > p:first-child { margin-bottom: 1.5rem; font-size: 1.06rem; }
+.contact-form {
+  min-height: 420px;
+  padding: clamp(1rem, 2.5vw, 1.5rem);
+  overflow: hidden;
+  background: var(--white);
+  color: var(--ink);
+}
+.hs-form-frame { min-height: 380px; }
+.contact-fallback {
+  margin-top: 1rem;
+  font-size: .88rem;
+}
+.contact-fallback a { font-weight: 800; }
 
 .site-footer { padding-block: 3rem; border-top: 1px solid var(--line); background: var(--cream); }
 .footer-inner { display: grid; grid-template-columns: 1.3fr .7fr .8fr; gap: 2rem; align-items: end; }
